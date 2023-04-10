@@ -11,17 +11,17 @@
 
 1. Установить виртуальное окружение питона (выполнять в директории программы):
 
-python3 -m venv .venv
+`python3 -m venv .venv`
 
-source .venv/bin/activate
+`source .venv/bin/activate`
 
 2. Установить зависимости:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 3. Запустить приложение:
 
-python3 app.py
+`python3 app.py`
 
 ### Описание решения ошибки:
 
@@ -37,16 +37,16 @@ from wtforms.validators import InputRequired
 
 Команда для сборки docker образа:
 
-docker build -t app:test .
+`docker build -t app:test .`
 
 Команда для запуска контейнера:
 
-docker run --rm -p 5000:5000 --name flaskex app:test
+`docker run --rm -p 5000:5000 --name flaskex app:test`
 
 Команда для сборки образа c помощью docker-compose:
 
-docker compose build
+`docker compose build`
 
 Команда для запуска контейнера c помощью docker-compose:
 
-docker compose up
+`docker compose up`
